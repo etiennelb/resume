@@ -4,6 +4,8 @@ CV public en français, généré avec xelatex et moderncv dans le but d'être t
 
 Basé sur https://github.com/xdanaux/moderncv
 
+[Exemple du CV généré](https://github.com/etiennelb/resume/blob/master/etiennelb-cv.pdf)
+
 ## Utilisation
 
 Forker ou cloner le projet :
