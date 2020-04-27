@@ -1,0 +1,122 @@
+%-----------------------------------------
+% Etienne LE BELLÉGUY
+% 2020
+% CV Public
+%-----------------------------------------
+
+\documentclass[10pt,a4paper,final,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{red}
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{2.5cm}
+\AtBeginDocument{\recomputelengths}
+% FONTS
+%\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+
+%\pagestyle{footer}
+\pagestyle{fancy}
+%\rfoot{\thepage\ of \pageref{LastPage}}
+\rfoot{\thepage}
+%\setcounter{page}{1}
+%\pagenumbering{gobble}
+
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text, % better, set "Ligatures = TeX",
+             %BoldFont={Myriad Pro Bold}
+         ] % you may also want to consider "Myriad Pro Semibold"
+                    {MinionPro-Regular}
+\setsansfont[Mapping=tex-text,%
+BoldFont={Myriad Pro Bold Condensed}%
+]{Myriad Pro}
+
+\renewcommand*{\namefont}{\fontsize{38}{40}\mdseries\upshape}
+\renewcommand*{\addressfont}{\normalsize\mdseries}
+
+
+%\usepackage{draftwatermark}
+%\SetWatermarkText{Brouillon}
+%\SetWatermarkScale{5}
+
+% Personal Inofrmation
+\name{Étienne}{\mbox{Le~Belléguy}}
+\title{Lead Developer}
+\homepage{etiennelb.com}
+\photo[64pt]{etiennelb}
+\extrainfo{\twittersocialsymbol{etiennelb}}
+
+\quote{14 ans d'expérience}
+%\nopagenumbers{}
+
+\begin{document}
+\maketitle
+
+
+% 1 Compétences
+\section{Compétences}
+%\subsection{Domaines d'expertise}
+
+\cvlistitem{Etude de l'existant et définition/optimisation d'architecture logicielle}
+\cvlistitem{Rédaction de spécifications fonctionnelles et techniques}
+\cvlistitem{Intégration continue et configuration de projets J2EE avec Maven}
+\cvlistitem{Rédaction et implémentation de suites de tests unitaires et d'intégration}
+\cvlistitem{Développement de services et outils métier, génération de rapports/documents}
+\cvlistitem{Développement d'IHM Web ergonomiques et dynamiques}
+\cvlistitem{Intégration et déploiement en production des applications}
+\cvlistitem{Correction et suivi des anomalies}
+\cvlistitem{Installation et maintenance de serveurs d'intégration continue et outils de développement.}
+\cvlistitem{Application de méthodologies agiles suivant les projets}
+
+\subsection{Compétences techniques}
+\cvdoubleitem{Langages}{Java, Groovy, Shell/Bash, Python, PHP}{Web}{HTML/XHTML, CSS, JavaScript, Ajax, jQuery}
+\cvdoubleitem{Frameworks}{Spring, Hibernate, Quartz, SiteMesh}{Base de données}{MySQL, PostgreSQL}
+\cvdoubleitem{Suivi de projet}{JIRA, Redmine, Mantis}{Wiki}{Confluence, Dokuwiki}
+\cvdoubleitem{API}{Guava, Apache commons}{Tests}{JUnit, FEST, Mockito, Selenium}
+\cvdoubleitem{IDE}{IntelliJ IDEA, Eclipse}{Reporting}{JasperReport}
+\cvitem{Gestion de sources}{Git, Mercurial, SVN, CVS}
+\cvitem{J2EE}{Servlet, JSP, JSF, Tomcat, Jetty}
+\cvitem{Librairies}{Google Guava, Apache commons, Joda Time, JaxRS}
+\cvitem{Projet}{Maven, UML, Agile, Scrum, Kanban}
+\cvitem{Systèmes d'exploitation}{GNU/Linux Debian, Ubuntu, CentOS, Arch, Microsoft Windows}
+\cvitem{Sécurité}{Burp Suite, ZAProxy}
+\cvitem{Services}{Apache, Lighttpd, Nginx, Nexus, OpenSSH}
+\cvitem{Bureautique et outils}{Microsoft Office, LibreOffice, Vim, \LaTeX{}}
+
+\section{Diplômes et Formations}
+\subsection{Diplômes}
+\cventry{2006}{License Professionnelle Informatique}{Applications réparties}{IUT de Nantes}{}{}
+\cventry{2005}{Diplôme Universitaire de Technologie Informatique}{Génie Logiciel}{IUT de Vannes}{}{}
+\cventry{2003}{Baccalauréat Scientifique}{Sciences de l'Ingénieur, spécialité Mathématiques}{}{}{}
+
+\section{Langues}
+\cvitemwithcomment{Anglais}{Lu courant, parlé technique}{}
+\cvitemwithcomment{Allemand}{Scolaire}{Étudié 8 ans}
+
+\section{Expérience professionnelle}
+\cventry[1em]{Depuis juin 2016}{Lead Developer}{RCA}{Nantes}{}{%
+}
+\cventry[1em]{2012 -- 2016}{Expert technique}{Kosmos}{Nantes}{}{%
+    \begin{itemize}
+    \item Édition de l'Environnement Numérique de Travail K-d'école
+    \item Développements projets pour l'enseignement supérieur et la formation professionnelle
+    \end{itemize}
+}
+\cventry[1em]{2008 -- 2012}{Ingénieur Études et Développement}{Néo-Soft}{Nantes}{}{}
+
+\cventry[1em]{2006 à 2008}{Concepteur Développeur J2EE}{Artis}{Saint-Sébastien-sur-Loire}{}{%
+Edition d'un progiciel de gestion intégré destiné aux activités informatique et copieurs.%
+}
+
+\section{Centres d'intérêt}
+\cvitem{Logiciel libre}{Veille et promotion du logiciel libre}
+\cvitem{Sécurité}{Veille sur les sujets de la sécurité des systèmes d'information}
+
+\section{Loisirs}
+\cvitem{Sport}{Course à pied}
+\cvitem{Musique}{Piano, guitare}
+
+\newpage
+
+\end{document}
