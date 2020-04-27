@@ -1,4 +1,4 @@
-# CV public
+# Curriculum-Vitae public
 
 CV public en français, généré avec `xelatex` et `moderncv` dans le but d'être téléchargé en PDF depuis mon site internet, envoyé en pièce jointe ou imprimé pour les entretiens.
 
